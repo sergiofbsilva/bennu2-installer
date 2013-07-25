@@ -56,7 +56,7 @@ mvn clean package
 cd ..
 
 echo "At this point all modules are compiled. "
-echo "To run app just 'cd bennu-webapp/' and 'run mvn jetty:start.'"
+echo "To run app just 'cd bennu-webapp/' and 'run mvn jetty:start'."
 echo "After running your app will be available at http://localhost:8080/bennu2/"
 echo "The default configuration will need a database with the name 'bennu2' and user root with password empty"
 echo "If you want to change these settings edit file bennu-webapp/src/main/resources/fenix-framework.properties"
